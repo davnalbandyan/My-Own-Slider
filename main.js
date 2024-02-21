@@ -25,10 +25,6 @@ next.addEventListener("click",(e)=>{
 
     }
    
-    
-    
-
-
 });
 
 prev.addEventListener("click",(e)=>{
@@ -42,14 +38,13 @@ prev.addEventListener("click",(e)=>{
             linePosition()
         }
     }
-  
-});
+  });
 
 
-function linePosition(){
-  
-    line.style.cssText = `transform: translateX(${currentPosition}px); transition: 0.5s;`;
-
+function linePosition(){  
+    line.style.cssText = 
+    `transform: translateX(${currentPosition}px);
+     transition: 0.5s;`;
 }
 
 
